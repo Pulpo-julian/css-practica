@@ -1,0 +1,6 @@
+
+/* coloca estilos a todas las etiquetas p parrafo que esten cercanas
+(justo despues) a las etiquetas h2 */
+h2 + p {
+    color: aqua;
+}

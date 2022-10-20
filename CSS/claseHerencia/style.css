@@ -1,0 +1,12 @@
+html {
+    font-size: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* las declaraciones que tengan valor inherit obtienen el valor del contenedor padre que tengan ese
+modificador declarado por ejemplo font size es modificado en html y no en main ni en body */
+h1 {
+    font-size: inherit;
+}
+

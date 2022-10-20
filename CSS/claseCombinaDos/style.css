@@ -1,0 +1,5 @@
+/* se estilizan todas las etiquetas parrafo que tengan como hermano general un h2
+(con general quiere decir hermanos directos, al mismo nivel) */
+h2 ~ p{
+    color: red;
+}

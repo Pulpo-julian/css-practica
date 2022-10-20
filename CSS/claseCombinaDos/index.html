@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h2>soy un h2</h2>
+        <p>soy una etiqueta p</p>
+        <h2>otro h2</h2>
+        <h3>este es un h3</h3>
+        <p>otro p</p>
+        <p>otro p</p>
+        <p>otro p</p>
+        <p>otro p</p>
+        <p>otro p</p>
+    </div>
+
+    <!-- los parrafos de este div no se estilizan por que no son hermanos de h2 al mismo nivel -->
+    <div>
+        <h2>soy un h2</h2>
+        <div>
+            <p>soy una etiqueta p</p>
+        </div>
+        <h6>otro h2</h6>
+        <h1>este es un h3</h1>
+        <div>
+            <p>otro p</p>
+        </div>
+    </div>
+</body>
+</html>
