@@ -1,0 +1,9 @@
+html {
+    font-size: 150%;
+}
+
+/* em toma el tamaño de fuente que tenga el padre directo donde se haya alterado dicho estilo*/
+/* como main no tiene estilos declarados con font-size entonces los toma del tamaño de fuente de html */
+.text-container {
+    font-size: 1.5em;
+}

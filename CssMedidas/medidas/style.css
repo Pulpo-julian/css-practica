@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* es una medida absoluta no va a cambiar ignorando la medida de la pantalla */
+/* p {
+    font-size: 18px;
+} */
+
+/* toma la cantidad en % heredado por el html que tiene un numero de fuente determinado dependiendo
+de la etiqueta */
+/* p {
+    font-size: 50%;
+} */
+
+/* los px y los porcentajes (medidas relativas y absolutas) tambien aplican para width y heigth */
+main {
+    background-color: rgb(202, 14, 14);
+    width: 100%;
+    height: 500px;
+}
+
+p {
+    font-size: 16px;
+}

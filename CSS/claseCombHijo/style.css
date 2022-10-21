@@ -1,0 +1,14 @@
+/* child sibling */
+/* se estilizan todas las etiquetas parrafo que sean hijas directas de una etiqueta div */
+/* div > p {
+    color: red;
+} */
+
+/* combinador descendiente */
+/* todas las etiquetas p que esten dentro de una etiqueta p sean directas o no */
+div p{
+    color: red;
+}
+
+
+
