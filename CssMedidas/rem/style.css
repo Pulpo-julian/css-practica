@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* rem se basa en tomar de referencia a las medidas de la etiqueta root html */
+p {
+    font-size: 1.6rem;
+}
