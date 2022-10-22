@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* estilos */
+
+/* estilos contenedor principal */
+.main-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.container {
+    min-height: auto;
+    padding: 20px 5px;
+    background-color: yellowgreen;
+}
+
+
+section {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    min-width: 450px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 1.9rem;
+}
+
+/* aside */
+.aside-info ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.aside-info ul li a {
+    text-decoration: none;
+}
+
+.aside-info {
+    font-size: 3rem;
+    min-height: auto;
+}

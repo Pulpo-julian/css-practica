@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    min-height: auto;
+    background-color: gray;
+    padding: 100px;
+}
+
+.seccion {
+    font-size: 2rem;
+    width: 65%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#titulo {
+    margin: 15px;
+    padding: 5px;
+    background-color: pink;
+    border: 1px solid black;
+    position: relative;
+    bottom: 60px;
+}
+
+#parrafo {
+    margin: 5px;
+}

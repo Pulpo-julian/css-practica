@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* estilos */
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: red;
+}
+
+/* la posición por defecto de una etiqueta html es static, relative mantiene la posicion pero */
+/* se puede manipular desde cualquier eje sin respetar las reglas de su contenedor padre */
+#dos {
+    background-color: greenyellow;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
