@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* estilos */
+
+/* declarar flex en el contenedor padre hace que si sus hijos tienen espacio en frente
+sean flexibles y dejen que otros contenedore se coloquen en frente de ellos */
+/* por default los elementos hijos se colocan en fila en row display-direction: row*/
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    /* hace que cuando no hay espacio entre los elementos unos bajen a la proxima fila */
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    background-color: aquamarine;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: yellowgreen;
+}
+
+.box4 {
+    background-color: blue;
+}
+
+.box5 {
+    background-color: navy;
+}
+
+.box6 {
+    background-color: yellow;
+}
+
+

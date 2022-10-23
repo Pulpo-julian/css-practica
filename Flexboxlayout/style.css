@@ -1,0 +1,71 @@
+:root {
+    --varible-de-color: #adadad;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+ font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* estilos */
+
+.main-container {
+    /* height: 100vh;; */
+    border: .3rem solid black;
+    display: flex;
+    /* height: 50vh; */
+    /* flex-direction: column; */
+    /* sirve para mover los elementos hacia los lados o arriba y abajo si flex-direction es column*/
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* ajusta todos los elementos hasta el limite del contenedor padre */
+    /* align-items: stretch; */
+    /* el tamaño del contenedor sera el de su propio contenido */
+    /* align-items: baseline; */
+    /* justify-content: baseline; */
+    /* sirve para cuando la pantalla se vuelva mas pequeña los elementos vaya bajando */
+    flex-wrap: wrap;
+}
+
+.box {
+    /* width: 10rem; */
+    height: 10rem;
+    border: .1rem solid var(--varible-de-color);
+    /* el truco que mas me gusto */
+    flex-basis: 10rem;
+    flex-grow: 1;
+
+}
+
+.box1 {
+    background-color: red;
+    /* usa el espacio restante de toda la fila */
+    /* flex-grow: 1; */
+}
+
+.box2 {
+    background-color: blue;
+    
+}
+
+.box3 {
+    background-color: brown;
+}
+
+.box4 {
+    background-color: aqua;
+}
+
+.box5 {
+    background-color: violet;
+}
+
