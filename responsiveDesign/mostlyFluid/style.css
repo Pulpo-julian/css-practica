@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* estilos */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+} 
+
+.c1 {
+    background-color: beige;
+}
+
+.c2 {
+    background-color: bisque;
+}
+
+.c3 {
+    background-color: blue;
+}
+
+.c4 {
+    background-color: brown;
+}
+
+.c5 {
+    background-color: yellowgreen;
+}
+
+/* mientras la pantalla sea mas pequña que 600px se aplica lo de arriba
+cuando llege a los 600px o mas se aplica lo de adentro de la siguiente sentencia */
+/* como minimo debe medir 600px para que suceda la sentencia */
+/* @media (min-width: 600px) {
+    .c2, .c3, .c4 {
+        width: 50%;
+    }
+} */
+
+/* @media (min-width: 800px) {
+
+
+    .c1 {
+        width: 60%;
+    }
+
+    .c2 {
+        width: 40%;
+    }
+
+    .c3, .c4 {
+        width: 33%;
+    } 
+
+    .c5 {
+        width: 34%;
+    }
+} */
+
+/* @media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
+
