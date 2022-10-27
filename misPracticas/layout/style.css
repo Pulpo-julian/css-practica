@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* estilos */
+
+.container {
+    display: flex;
+    border: .3rem solid black;
+}
+
+.caja {
+    width: 10rem;
+    height: 10rem;
+    border: .1rem solid black;
+}
+
+.caja1 {
+    background-color: aqua;
+}
+
+.caja2 {
+    background-color: wheat;
+}
+
+.caja3 {
+    background-color: blue;
+}
+
+.caja4 {
+    background-color: turquoise;
+}
+
+.caja5 {
+    background-color: brown;
+}
+
+.caja6 {
+    background-color: rgb(173, 236, 90);
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* estilos */
+
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    width: 60%;
+}
+
+.nav-bar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+}
+
+.box {
+    width: 20%;
+    height: 100%;
+}
+
+.div1 {
+    background-color: bisque;
+}
+
+.div2 {
+    background-color: blueviolet;
+}
+

@@ -15,7 +15,7 @@ body {
 /* estilos */
 
 /* declarar flex en el contenedor padre hace que si sus hijos tienen espacio en frente
-sean flexibles y dejen que otros contenedore se coloquen en frente de ellos */
+sean flexibles y dejen que otros contenedores se coloquen en frente de ellos */
 /* por default los elementos hijos se colocan en fila en row display-direction: row*/
 .container {
     border: 0.3rem solid black;
